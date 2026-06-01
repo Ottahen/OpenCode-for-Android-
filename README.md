@@ -67,7 +67,7 @@ npm --version    # Should be 10.x.x or later
 
 ---
 
-5. Install opencode-ai globally
+5. Install opencode-ai globally.
 
 ```bash
 npm i -g opencode-ai
