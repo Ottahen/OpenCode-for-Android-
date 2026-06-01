@@ -1,0 +1,19 @@
+Metric,OpenCode,Claude Code,OpenAI Codex
+GitHub Stars,"161,000+",—,"83,000+"
+Monthly Active Users,"7.5 million",—,"3 million (weekly)"
+Monthly Cost,"Free (BYOK) or $10–200","$20–100+","$20+ (ChatGPT Plus)"
+SWE-Bench Score (model-dependent),Up to ~80% (via Claude),80.9% (Opus 4.5),77.9% (GPT-5.1-Codex)
+Number of Model Providers,"75+",1,1
+Open Source,"✅ Yes","❌ No","❌ No"
+Primary Language / Architecture,TypeScript (Effect-based),Proprietary,Rust (monolithic)
+IDE Experience,CLI/Desktop (Tauri),CLI/Desktop,CLI/Desktop + Chrome extension
+Flexibility (model lock-in),Highest (75+ models),Low (Anthropic only),Low (OpenAI only)
+Quota Restriction,None (BYOK),Most restrictive,User-friendly
+Developer Approval Rate (real PRs),—,73.7%,74.3%
+Input API Price ($/M tokens),—,$5.00,$1.25
+Output API Price ($/M tokens),—,$25.00,$10.00
+Real-world task cost (per task),—,$1.68,$0.76
+Harness Benchmark Score (April 2026),—,92.1%,77.3%
+
+
+  Note: Blanks (—) indicate data not directly comparable or not available in the original source. All numbers are as reported in the prior analysis, which cited real benchmarks (SWE-Bench, Harness, Modu, Medium, Reddit) from 2025–2026.
