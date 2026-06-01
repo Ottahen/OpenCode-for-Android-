@@ -1,0 +1,2 @@
+# OpenCode-for-Android-
+ALTERNATIVE OF CLAUDE CODE &amp; OPEN AI CODEX
