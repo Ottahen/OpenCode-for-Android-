@@ -1,0 +1,5 @@
+Issue,Possible solution
+"proot-distro: command not found","Run `pkg install proot-distro -y` again and restart Termux."
+"apt fails inside Ubuntu","Run `apt update --fix-missing` and check your internet connection."
+"opencode-ai not found after npm i -g","Log out and back into Ubuntu, or run `source ~/.bashrc`."
+"Permission denied when accessing /mobile_storage","Make sure you ran `termux-setup-storage` and allowed the permission."
