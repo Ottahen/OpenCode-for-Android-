@@ -24,7 +24,7 @@ pkg install proot-distro -y
 
 2. Set up Storage & Install Ubuntu
 
-Grant Termux access to your phone’s shared storage, then install Ubuntu.
+Grant Termux access to your phone’s shared storage, then install Ubuntu..
 
 ```bash
 termux-setup-storage
