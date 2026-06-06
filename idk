@@ -1,0 +1,24 @@
+# OpenCode: Modern Code Editor Setup on Termux (New Style)
+
+This guide walks you through setting up a **modern, lightweight, open-source code editor** on Termux — we call this **OpenCode Style**. It gives you a full IDE experience (syntax highlighting, IntelliSense, Git integration, extensions) directly from your Android device's browser or terminal.
+
+We'll use **code-server** (VS Code in the browser) as the primary method because it's fast, familiar, and works out-of-the-box on Termux.
+
+---
+
+## 📱 Prerequisites
+
+- Android device with **Termux** installed (from [F-Droid](https://f-droid.org/en/packages/com.termux/) or GitHub – **not** the outdated Google Play version).
+- At least **500 MB** free storage.
+- Stable Wi-Fi (extensions may download additional assets).
+- Basic familiarity with the terminal.
+
+---
+
+## 🚀 Step 1: Update Termux and Install Core Tools
+
+Open Termux and run:
+
+```bash
+pkg update && pkg upgrade -y
+pkg install -y git nodejs-lts yarn build-essential python wget
